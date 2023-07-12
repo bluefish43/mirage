@@ -1,0 +1,8 @@
+definefnlabel myfn 0 None
+move r1 int 33
+move r2 int 44
+add r1 r2 r3
+stdoutwrite r3
+call myfn
+endfunction
+call myfn
